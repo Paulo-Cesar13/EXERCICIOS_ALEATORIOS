@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    background-color: rgb(252, 251, 251);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 10px 13px rgb(32, 32, 32);
+    background-color: rgb(87, 3, 3)
+}
+
+.titulo {
+    margin: 10px;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    font-style: italic;
+    font-family:'Rubik Wet Paint', cursive;
+    color: white;
+}
+
+.inpults {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inpults h2 {
+    font-size: 30px;
+    font-style: italic;
+    font-family:'Rubik Wet Paint', cursive;
+    margin-top: 10px;
+    color: white;
+}
+
+.inpults input {
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.inpults button {
+    font-size: 20px;
+    margin-top: 10px;
+    width: 350px;
+    cursor: pointer;
+}
