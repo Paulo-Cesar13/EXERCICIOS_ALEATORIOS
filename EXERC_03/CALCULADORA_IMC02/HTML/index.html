@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,700&family=Meow+Script&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500&family=Rubik+Storm&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CALCULADORA IMC 02</title>
+</head>
+<body>
+    <div class="conteiner"><!--conteiner-->
+        <div id="calc-conteiner" ><!--calc-conteiner-->
+            <h2>
+                Calculadora de IMC
+            </h2>
+            <form id="imc-form"><!--imc-form-->
+                <div class="form-inputs"><!--form-inputs-->
+                    <div class="form-control"><!--form-control-->
+                        <label for="altura">Altura</label>
+                        <input type="text" name="altura" id="altura" placeholder="Exemplo 1,75">
+                    </div><!--form-control-->
+                    <div class="form-control"><!--form-control-->
+                        <label for="peso">Peso</label>
+                        <input type="text" name="peso" id="peso" placeholder="Exemplo 70,5">
+                    </div><!--form-control-->
+                </div><!--form-inputs-->
+                <div class="action-control"><!--action-control-->
+                    <button id="calc-btn">CALCULAR</button>
+                    <button id="clear-btn">LIMPAR</button>
+                </div><!--action-control-->
+            </form><!--imc-form-->
+        </div><!--calc-conteiner-->
+        <div id="result-conteiner" class="hide"><!--result-conteiner-->
+            <p id="imc-number"><!--imc-number-->
+                Seu IMC: 
+                <span></span>
+            </p><!--imc-number-->
+            <p id="imc-info"><!--imc-info-->
+                Situação Atual:
+                <span></span>
+            </p><!--imc-info-->
+            <h3>
+                Confira as Classificações
+            </h3>
+            <div id="imc-table"><!--imc-table-->
+                <div class="table-header"><!--table-header-->
+                    <h4>
+                        IMC
+                    </h4>
+                    <h4>
+                        Classificações
+                    </h4>
+                    <h4>
+                        Obessidade
+                    </h4>
+                </div><!--table-header-->
+            </div><!--imc-table-->
+            <button id="back-btn">VOLTAR</button>
+        </div><!--result-conteiner-->
+    </div><!--conteiner-->
+    <script src="JS/script.js"></script>
+</body>
+</html>
